@@ -1,3 +1,12 @@
+🏏 IPL Batting Performance SQL Analysis
+
+📘 Project Overview
+
+This project analyzes Indian Premier League (IPL) batting statistics using SQL to extract insights about player performance, team contributions, and consistency.
+It demonstrates strong skills in data cleaning, aggregation, ranking, and analytical SQL — ideal for data analyst or business intelligence roles.
+
+🗄️ Database & Table Setup
+
 -- Step 1: Create the database
 CREATE DATABASE IPL;
 
@@ -21,7 +30,9 @@ CREATE TABLE ipl_batter (
 );
  
  SELECT * FROM ipl_batter;
- 
+
+ 💡 SQL Queries (Basic → Advanced)
+
  -- Q1 = Total number of players in the IPL_batter table
 
  SELECT COUNT(*) AS total_players FROM ipl_batter;
@@ -118,3 +129,17 @@ SELECT
 FROM ipl_batter
 GROUP BY Performance_Category;
 
+
+📊 Insights & Outcomes
+
+Identified top-performing and consistent batters across IPL teams.
+Compared team-wise averages and strike rates.
+Used window functions and joins to rank and analyze player contribution.
+Classified batters into performance tiers using SQL logic.
+
+🧑‍💻 Author
+
+Paras atrish
+📧 Parasatrish23@gmail.com
+
+🔗 LinkedIn = www.linkedin.com/in/paras-atrish
